@@ -1,1 +1,4 @@
 
+CREATE DATABASE CollegeDB; USE CollegeDB;
+
+CREATE TABLE Department ( Department ID NUMBER (5) PRIMARY KEY, Department Name VARCHAR(20) NOT NULL, HOD VARCHAR(20) NOT NULL );
